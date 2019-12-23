@@ -1,0 +1,5 @@
+<launch>
+  <param name="pub_topic_" value="/iqr/pan_tilt_cmd" type="string"/>
+  <param name="sub_topic_" value="joy" type="string"/>
+  <node pkg="joy_pantilt" type="joy_pantilt" name="joy_pantilt" />
+</launch>
